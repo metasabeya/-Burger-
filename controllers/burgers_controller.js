@@ -7,5 +7,16 @@ router.get("/", function(req, res) {
         var hbsObject = {
             burgers: data
         };
-    })
-})
+    });
+
+});
+
+router.post("/", function(req, res) {
+    burger.create([
+        "burger_name", "devpoured"
+    ], [
+        req.body.burger_name, req.body.devoured
+    ], function() {
+        res.redirect("/");
+    });
+});
