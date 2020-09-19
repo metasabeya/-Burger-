@@ -72,8 +72,11 @@ var orm = {
 
       cb(result);
     });
-  }
+  },
+  
+
 };
+
 
 // To export the orm 
 module.exports = orm;

@@ -1,16 +1,18 @@
+img {
+    align-content: flex-end;
+}
 li {
     padding: 15px;
     margin: 15px;
-    background: #ffffff;
-    list-style: none;
-  }
-  
-  ul {
-      list-style: none;
-  }
-  
-  .label {
+    font-style: normal;
     font-weight: bold;
+    background: lightpink;
+    list-style: none;
+    
+  }
+  
+ ul {
+      list-style: none;
   }
   
   .center {
@@ -21,47 +23,47 @@ li {
       align-content: right;
   }
   
-  img {
-      align-content: center;
-  }
+  
   
   h1 {
       text-align: center;
       text-shadow: 2px 2px #ffffff;
+      font-weight: bolder;
+      color:purple;
   }
   
   h2 {
       text-align: center;
-      text-shadow: 2px 2px #ffffff;
+      text-shadow: 2px 2px pink;
   }
   
   .create-update-form {
     padding: 25px;
     margin: 25px;
-    background: #eceff1;
+    background: blue;
     border: 1px black solid;
+    font-style: italic;
+    font-size: large;
   }
+  .btn-primary {
+    border-radius: 20px;
+}
   
   .form-group {
-    margin-bottom: 25px;
+    margin-bottom: 35px;
   }
   
-  .btn-primary {
-      border-radius: 15px;
-  }
-  
-  html, body{
-      height: 100%;
-  }
   body { 
-      background-image: url(http://glimpsesofcharleston.com/wp-content/uploads/2015/02/french-fries17908686_lrg.jpg) ;
+      background-image: url(https://assets3.thrillist.com/v1/image/2851020/828x1500/flatten;scale;jpeg_quality=70) ;
       background-position: center center;
       background-repeat:  no-repeat;
       background-attachment: fixed;
       background-size:  cover;
       background-color: #000000;  
   }
-  
+  html, body{
+    height: 100%;
+}
   div, body{
       margin: 0;
       padding: 0;
@@ -78,16 +80,17 @@ li {
       width: 100%; 
       }
   
-  .message {
-    -webkit-box-sizing: border-box;
+      .message {
+    
     -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
     box-sizing: border-box;
     width: 100%; 
     height:45%;
     bottom: 0; 
     display: block;
     position: absolute;
-    background-color: rgba(0,0,0,0.6);
-    color: #fff;
+    background-color: rgba(0,0,0,0.5);
+    color: grey;
     padding: 0.5em;
   }

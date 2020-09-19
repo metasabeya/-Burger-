@@ -16,7 +16,8 @@ var burger = {
     orm.update("burgers", objColVals, condition, function(res) {
       cb(res);
     });
-  }
+  },
+  
 };
 
 // To export the database 
