@@ -14,6 +14,9 @@ if (process.env.JAWSDB_URL) {
   })
 };
 
+connection.connect();
+
+
 // var connection = mysql.createConnection({
 //   port: 3306,
 //   host: "localhost",
@@ -32,6 +35,5 @@ if (process.env.JAWSDB_URL) {
 // });
 
 
-connection.connect();
 // Export connection for ORM 
 module.exports = connection;
