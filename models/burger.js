@@ -1,5 +1,6 @@
 var orm = require("../config/orm.js");
 
+
 var burger = {
   all: function(cb) {
     orm.all("burgers", function(res) {
@@ -20,5 +21,5 @@ var burger = {
   
 };
 
-// To export the database 
+//To export the database 
 module.exports = burger;
