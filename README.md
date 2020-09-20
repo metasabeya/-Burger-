@@ -13,7 +13,7 @@ This app is built by using Node, Express, handlebars and object relational mappi
 * Each burger in the waiting area also has a `Devour it!` button. When the user clicks it, the burger will move to the right side of the page.
 
 
-*The app store every burger in a database, whether devoured or not.
+* The app store every burger in a database, whether devoured or not.
 
 
 - It follows the MVC design pattern and also use Node and MySQL to query and route data in your app, and Handlebars to generate your HTML.
