@@ -10,7 +10,7 @@ if (process.env.JAWSDB_URL) {
     host: 'localhost',
     user: 'root',
     password: 'enguMY@2019',
-    database: 'todoagain_db'
+    database: 'burgers_db'
   })
 };
 // var connection = mysql.createConnection({

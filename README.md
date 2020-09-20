@@ -46,3 +46,5 @@
 heroku deployed link: https://boiling-caverns-74675.herokuapp.com/
 
 portfolio link: https://metasabeya.github.io/Portfolio-2/
+
+Video link: https://drive.google.com/file/d/1bqAjSkllIIUSiM_sYjavlIYR7t_8FZCU/view?usp=sharing
